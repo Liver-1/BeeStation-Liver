@@ -1,10 +1,10 @@
 /datum/round_event_control/spawn_swarmer
 	name = "Spawn Swarmer Shell"
 	typepath = /datum/round_event/spawn_swarmer
-	weight = 7
-	max_occurrences = 1 //Only once okay fam
-	earliest_start = 30 MINUTES
-	min_players = 15
+	weight = 0
+	max_occurrences = 0 //Begone foul beast
+	earliest_start = 180 MINUTES
+	min_players = 30
 	dynamic_should_hijack = TRUE
 
 /datum/round_event_control/spawn_swarmer/preRunEvent()
